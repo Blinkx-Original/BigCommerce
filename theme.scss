@@ -500,6 +500,44 @@
     text-align: left !important;
 }
 
+/* Ajustes específicos para posts del blog: texto más grande y menos "centrado" */
+.body.blog .page-content {
+    max-width: 1100px !important;
+    padding: 0 1rem !important;
+    margin: 2.5rem auto 3.5rem !important;
+}
+
+.body.blog .page-heading,
+.body.blog .page-content h1 {
+    font-size: 38px !important;
+    line-height: 1.2 !important;
+}
+
+.body.blog .page-content p,
+.body.blog .page-content li {
+    font-size: 20px !important;
+    line-height: 1.75 !important;
+    color: #262626 !important;
+}
+
+.body.blog .page-content ul,
+.body.blog .page-content ol {
+    margin-bottom: 22px !important;
+    padding-left: 26px !important;
+}
+
+.body.blog .page-content h2 {
+    font-size: 30px !important;
+    margin-top: 32px !important;
+    margin-bottom: 18px !important;
+}
+
+.body.blog .page-content h3 {
+    font-size: 24px !important;
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+}
+
 /* Párrafos dentro del contenido */
 .page-content p {
     font-size: 18px !important;         /* más grande que el default */
@@ -554,4 +592,21 @@
     text-align: left !important;
     line-height: 1.5 !important;
     color: #333333 !important;
+}
+
+.body.blog .page-content table {
+    font-size: 17px !important;
+    background: #fcfcff !important;
+    border: 1px solid #d1d5db !important;
+}
+
+.body.blog .page-content table th {
+    background: #f3f4f6 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.body.blog .page-content table tbody tr:nth-child(odd) {
+    background: #f9fafb !important;
 }
